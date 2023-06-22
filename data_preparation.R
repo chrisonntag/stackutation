@@ -5,3 +5,5 @@ questions_nobody = questions[,c(1:2,4:9)]
 
 save(questions, file = "questions.RData")
 remove(questions)
+
+# join question and answer file

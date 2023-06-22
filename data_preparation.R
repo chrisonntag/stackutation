@@ -28,5 +28,3 @@ qa_combinations = questions_nobody %>% inner_join(answers,by="question_id")
 
 # Calculate response time
 qa_combinations$time_to_response = difftime(qa_combinations$creation_date.y, qa_combinations$creation_date.x)
-
-
